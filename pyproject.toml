@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "k-forghani-github-io"
+version = "1.0.0"
+description = ""
+authors = ["Kazem Forghani <kaz.forghani@gmail.com>"]
+readme = "README.md"
+packages = [{include = "k_forghani"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pelican = {extras = ["markdown"], version = "^4.9.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
